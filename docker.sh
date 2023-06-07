@@ -18,7 +18,7 @@ sudo apt  install docker-compose -y
 
 # Executing the Docker Command Without Sudo
 sudo usermod -aG docker ${USER}
-su - ${USER}
+sudo su - ${USER}
 groups
 
 # Change the user ubuntu to the user you want to run docker
