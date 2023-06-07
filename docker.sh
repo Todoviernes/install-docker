@@ -6,6 +6,13 @@ sudo apt update
 # Upgrade all packages
 sudo apt upgrade -y
 
+# Install zsh
+sudo apt install zsh
+
+# Install oh-my-zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
+
 # Install Docker
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
